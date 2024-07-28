@@ -1,0 +1,832 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="apple-touch-icon" sizes="180x180"
+    href="https://beaconpharma.com.bd/favicon/favicon/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="https://beaconpharma.com.bd/favicon/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="https://beaconpharma.com.bd/favicon/favicon-16x16.png" />
+  <title>Product</title>
+  <!-- bootstrap cdn  -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <!-- swiper cdn -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <!-- google font cdn  -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <!-- goole font -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap">
+  <!-- fontawosome  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+  <!-- custom css -->
+  <link rel="stylesheet" href="assets/css/app.css">
+  <link rel="stylesheet" href="assets/css/bannar.css">
+  <link rel="stylesheet" href="assets/css/bundle.css">
+</head>
+
+<body>
+  <!--  === begin header ======== -->
+  <header>
+    <!-- begin top nav item  -->
+    <div class="d-none d-xl-block">
+      <div class="d-flex w-100 nav-top-item gap-3 justify-content-end ">
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="/investor-dairy.html">Investor Diary</a>
+        </li><span>|</span>
+        <li class="nav-item">
+          <a class="nav-link" href="/career.html">Careers</a>
+        </li><span>|</span>
+        <li class="nav-item">
+          <a class="nav-link" href="/contact.html">Contact Us</a>
+        </li><span>|</span>
+        <li class="nav-item">
+          <a class="nav-link" href="sister-consern.html">Site For Global</a>
+        </li><span>|</span>
+        <li class="nav-item">
+          <a class="nav-link" href="/journal.html">Journals</a>
+        </li><span>|</span>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Old Website</a>
+        </li>
+      </div>
+    </div>
+    <!-- end top nav item  -->
+    <div class="header-bottom">
+      <nav class="navbar py-0">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img class="w-100" src="assets/img/logo.svg" alt="beacon logo">
+          </a>
+          <div class="d-none d-xl-block">
+            <ul class="d-flex gap-5 nav-group m-0 p-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
+              </li>
+              <!-- begin dropdown  -->
+              <li class="nav-item">
+                <div class="cm-dropdown arrowhover1">
+                  Company
+                  <img src="assets/img/icon/arrow-down.svg" alt="becon arrow">
+                  <div class="dropdown-item1">
+                    <a href="/Glance.html">Beacon at Glance</a>
+                    <a href="/leadrship.html">Our Leadership</a>
+                    <a href="/our-people.html">Our People</a>
+                    <a href="/ourresponsibilty.html">Our Responsibility</a>
+                    <a href="/sister-consern.html">Sister Concerns</a>
+                  </div>
+                </div>
+              </li>
+              <!-- end dropdown  -->
+              <!-- begin dropdown  -->
+              <li class="nav-item">
+                <div class="cm-dropdown arrowhover2" href="#">
+                  Manufacturing Facilities
+                  <img src="assets/img/icon/arrow-down.svg" alt="becon arrow">
+                  <div class="dropdown-item1">
+                    <a href="/overview.html">Overview</a>
+                    <a href="/Oncology.html">Oncology & Biotech</a>
+                    <a href="oral-solid.html">Oral Solid Dosage</a>
+                    <a href="/Oral-Liquid-Dosage.html">Oral Liquid Dosage</a>
+                    <a href="/Injectables.html">Injectables</a>
+                    <a href="Cephalosporins.html">Cephalosporins & Penem facilities</a>
+                    <a href="/Topicals.html">Topicals</a>
+                    <a href="/Research.html">Research & development</a>
+                    <a href="/Quality.html">Quality Policy</a>
+                  </div>
+                </div>
+              </li>
+              <!-- end dropdown  -->
+              <li class="nav-item">
+                <a class="nav-link" href="/product.html">Products</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/business-operation.html">Business Operations</a>
+              </li>
+              <li>
+                <button class="search">
+                  <img src="assets/img/icon/search.svg" alt="plus">
+                </button>
+              </li>
+            </ul>
+          </div>
+          <!-- begin tolagge icon  -->
+          <div class="d-xl-none">
+            <div class="d-flex">
+              <button class="search">
+                <img src="assets/img/icon/search.svg" alt="plus">
+              </button>
+              <button class="menu-button" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                aria-controls="offcanvasNavbar">
+                <i class="fa-solid fa-bars"></i>
+              </button>
+            </div>
+            <!-- end tolagge icon  -->
+          </div>
+          <!-- begin mobile nave item  -->
+          <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar"
+            aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header border-bottom">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+                <a class="nav-link" href="#">
+                  <img src="assets/img/mobile-logo.svg" alt="beacon farma logo">
+                </a>
+              </h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <a href="#">home</a>
+              <div class="accordion accordion-flush" id="accordionFlushExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed border-bottom" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                      Company
+                    </button>
+                  </h2>
+                  <div id="flush-collapseOne" class="accordion-collapse collapse"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                      <a href="#">Beacon at Glance</a>
+                      <a href="#">Our Leadership</a>
+                      <a href="#">Our People</a>
+                      <a href="#">Our Responsibility</a>
+                      <a href="#">Sister Concerns</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed border-bottom" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                      Manufacturing Facilities
+                    </button>
+                  </h2>
+                  <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                      <a href="#">Overview</a>
+                      <a href="#">Oncology &amp; Biotech</a>
+                      <a href="#">Oral Solid Dosage</a>
+                      <a href="#">Oral Liquid Dosage</a>
+                      <a href="#">Injectables</a>
+                      <a href="#">Cephalosporins &amp; Penem facilities</a>
+                      <a href="#">Topicals</a>
+                      <a href="#">Research &amp; development</a>
+                      <a href="#">Quality Policy</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <a href="#">Product</a>
+              <a href="#">Business Operations</a>
+              <a href="#">Investor Diary</a>
+              <a href="#">Careers</a>
+              <a href="#">Contact Us</a>
+              <a href="#">Site For Global</a>
+              <a href="#">Old Website</a>
+            </div>
+          </div>
+          <!-- end mobile nav item  -->
+        </div>
+      </nav>
+    </div>
+  </header>
+  <!-- ======== end header ========= -->
+  <!-- begin banner  -->
+  <section>
+    <div class="bannar">
+      <img src="assets/img/beacon-bannar/products-bannar.jpg" alt="bannar">
+    </div>
+  </section>
+  <!-- end banner  -->
+  <div class="d-flex gap-2 px-4 pt-4">
+    <a class="page-path" href="#">Home</a>/<p class="page-path">product</p>
+  </div>
+  <!-- begin content  -->
+  <div class="container py-5">
+    <h2 class="section-heading text-center mb-3">Products</h2>
+    <div class="description-container">
+      <p class="description">
+        Beacon Pharmaceuticals PLC is dedicated to developing high-quality, targeted medications to improve patient outcomes and address complex illnesses. Our mission is to promote global health by providing cost-effective healthcare solutions, and utilizing innovative & advanced manufacturing processes. We offer a wide range of products, including 200 general, and 70 oncology medications across Various therapeutic tic classes.
+      </p>
+    </div>
+  </div>
+  <hr>
+  <div class="mycontainer">
+    <h3 class="subsection-heading">Browse products list</h3>
+    <ul class="d-flex list-unstyled filter-letter">
+      <li>
+        <a href="#A" class="">
+          A
+        </a>
+      </li>
+      <li>
+        <a href="#B" class="">
+          B
+        </a>
+      </li>
+      <li>
+        <a href="#C" class="">
+          C
+        </a>
+      </li>
+      <li>
+        <a href="#D" class="">
+          D
+        </a>
+      </li>
+      <li>
+        <a href="#E" class="">
+          E
+        </a>
+      </li>
+      <li>
+        <a href="#F" class="">
+          F
+        </a>
+      </li>
+      <li>
+        <a href="#G" class="">
+          G
+        </a>
+      </li>
+      <li>
+        <a href="#H" class="">
+          H
+        </a>
+      </li>
+      <li>
+        <a href="#I" class="">
+          I
+        </a>
+      </li>
+      <li>
+        <a href="#J" class="disabled">
+          J
+        </a>
+      </li>
+      <li>
+        <a href="#K" class="disabled">
+          K
+        </a>
+      </li>
+      <li>
+        <a href="#L" class="">
+          L
+        </a>
+      </li>
+      <li>
+        <a href="#M" class="">
+          M
+        </a>
+      </li>
+      <li>
+        <a href="#N" class="">
+          N
+        </a>
+      </li>
+      <li>
+        <a href="#O" class="">
+          O
+        </a>
+      </li>
+      <li>
+        <a href="#P" class="">
+          P
+        </a>
+      </li>
+      <li>
+        <a href="#Q" class="disabled">
+          Q
+        </a>
+      </li>
+      <li>
+        <a href="#R" class="">
+          R
+        </a>
+      </li>
+      <li>
+        <a href="#S" class="">
+          S
+        </a>
+      </li>
+      <li>
+        <a href="#T" class="">
+          T
+        </a>
+      </li>
+      <li>
+        <a href="#U" class="disabled">
+          U
+        </a>
+      </li>
+      <li>
+        <a href="#V" class="disabled">
+          V
+        </a>
+      </li>
+      <li>
+        <a href="#W" class="disabled">
+          W
+        </a>
+      </li>
+      <li>
+        <a href="#X" class="">
+          X
+        </a>
+      </li>
+      <li>
+        <a href="#Y" class="disabled">
+          Y
+        </a>
+      </li>
+      <li>
+        <a href="#Z" class="">
+          Z
+        </a>
+      </li>
+    </ul>
+    <div class="fiter">
+      <div class="row g-2">
+        <div class="col-sm-6 col-lg-3">
+          <label for="allProductsBrandName" class="form-label">Brand Name *</label>
+          <div class="position-relative">
+            <select name="allProductsBrandName" id="allProductsBrandName" class="form-control">
+              <option value="" hidden="" selected="">Select one</option>
+              <option value="Xitabin">
+                Xitabin</option>
+              <option value="Trastunix">
+                Trastunix</option>
+              <option value="Imanix">
+                Imanix</option>
+              <option value="Bortez">
+                Bortez</option>
+              <option value="Gemoxen">
+                Gemoxen</option>
+              <option value="Nab-Xelpac">
+                Nab-Xelpac</option>
+              <option value="Eposis">
+                Eposis</option>
+              <option value="Alfacon">
+                Alfacon</option>
+              <option value="Mezest">
+                Mezest</option>
+              <option value="Immufen RT">
+                Immufen RT</option>
+              <option value="Fixvel">
+                Fixvel</option>
+              <option value="TAF">
+                TAF</option>
+              <option value="ETP">
+                ETP</option>
+              <option value="L-DOX">
+                L-DOX</option>
+              <option value="Filgrast">
+                Filgrast</option>
+              <option value="Carboplat">
+                Carboplat</option>
+              <option value="Bevastim">
+                Bevastim</option>
+              <option value="Xaloplat Aqua">
+                Xaloplat Aqua</option>
+              <option value="FXR">
+                FXR</option>
+              <option value="Sarozar">
+                Sarozar</option>
+              <option value="Rituxim">
+                Rituxim</option>
+              <option value="Docexan">
+                Docexan</option>
+              <option value="Pemetrex">
+                Pemetrex</option>
+              <option value="Zytix">
+                Zytix</option>
+              <option value="Lenva">
+                Lenva</option>
+              <option value="Xelpac Premium">
+                Xelpac Premium</option>
+              <option value="Ovocal-D">
+                Ovocal-D</option>
+              <option value="Gaviflux">
+                Gaviflux</option>
+              <option value="Flexibac">
+                Flexibac</option>
+              <option value="Zerotil Plus">
+                Zerotil Plus</option>
+              <option value="Bukof">
+                Bukof</option>
+              <option value="Xalcort">
+                Xalcort</option>
+              <option value="Paloxi">
+                Paloxi</option>
+              <option value="Hexinor">
+                Hexinor</option>
+              <option value="Rupadin">
+                Rupadin</option>
+              <option value="Doxoven">
+                Doxoven</option>
+              <option value="Pemro">
+                Pemro</option>
+              <option value="Nivomab">
+                Nivomab</option>
+              <option value="Sinjard">
+                Sinjard</option>
+              <option value="Sinjard-L">
+                Sinjard-L</option>
+              <option value="Sinjard-M">
+                Sinjard-M</option>
+              <option value="Teslar">
+                Teslar</option>
+              <option value="Telsar-M">
+                Telsar-M</option>
+              <option value="Xelmet">
+                Xelmet</option>
+              <option value="Xelmet XR">
+                Xelmet XR</option>
+              <option value="Belsar">
+                Belsar</option>
+              <option value="Belsar-M">
+                Belsar-M</option>
+              <option value="Resva">
+                Resva</option>
+            </select>
+            <div class="icon-arrow">
+              <svg width="17" height="10" viewBox="0 0 17 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M16.3333 1.25L8.83334 8.75L1.33334 1.25" stroke="black"></path>
+              </svg>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-3">
+          <label for="allProductsgenericName" class="form-label">Generic Name *</label>
+          <div class="position-relative">
+            <select name="allProductsgenericName" class="form-control allProductsgenericName">
+              <option value="" hidden="" selected="">Select one</option>
+              <option value="Capecitabine">
+                Capecitabine</option>
+              <option value="Trastuzumab">
+                Trastuzumab</option>
+              <option value="Imatinib">
+                Imatinib</option>
+              <option value="Bortezomib">
+                Bortezomib</option>
+              <option value="Gemcitabine">
+                Gemcitabine</option>
+              <option value="Nanoparticle Albumin Bound Paclitaxel">
+                Nanoparticle Albumin Bound Paclitaxel</option>
+              <option value="Erythropoietin Alfa">
+                Erythropoietin Alfa</option>
+              <option value="Amino Acid Keto Analogues">
+                Amino Acid Keto Analogues</option>
+              <option value="Megestrol Acetate">
+                Megestrol Acetate</option>
+              <option value="Aqua, glycerin, PEG-40 hydrogenated castor oil, carbomer, Biolin, tocopheryl acetate">
+                Aqua, glycerin, PEG-40 hydrogenated castor oil, carbomer, Biolin, tocopheryl acetate</option>
+              <option value="Sofosbuvir 400mg + Velpatasvir 100 mg">
+                Sofosbuvir 400mg + Velpatasvir 100 mg</option>
+              <option value="Tenofovir Alafenamide">
+                Tenofovir Alafenamide</option>
+              <option value="Eltrombopag Olamine">
+                Eltrombopag Olamine</option>
+              <option value="Doxorubicin Hydrochloride Liposome">
+                Doxorubicin Hydrochloride Liposome</option>
+              <option value="Filgrastim">
+                Filgrastim</option>
+              <option value="Carboplatin">
+                Carboplatin</option>
+              <option value="Bevacizumab">
+                Bevacizumab</option>
+              <option value="Oxaliplatin">
+                Oxaliplatin</option>
+              <option value="Obeticholic acid (OCA)">
+                Obeticholic acid (OCA)</option>
+              <option value="Saroglitazar">
+                Saroglitazar</option>
+              <option value="Rituximab">
+                Rituximab</option>
+              <option value="Docetaxel">
+                Docetaxel</option>
+              <option value="Pemetrexed">
+                Pemetrexed</option>
+              <option value="Abiraterone Acetate">
+                Abiraterone Acetate</option>
+              <option value="Lenvatinib Mesylate">
+                Lenvatinib Mesylate</option>
+              <option value="Paclitaxel">
+                Paclitaxel</option>
+              <option value="Calcium &amp; Vitamin">
+                Calcium &amp; Vitamin</option>
+              <option value="Sodium Alginate+Sodium Bicarbonate+Calcium Carbonate">
+                Sodium Alginate+Sodium Bicarbonate+Calcium Carbonate</option>
+              <option value="Baclofen">
+                Baclofen</option>
+              <option value="Cefuroxime + Clavulanic Acid">
+                Cefuroxime + Clavulanic Acid</option>
+              <option value="Butamirate Citrate">
+                Butamirate Citrate</option>
+              <option value="Deflazacort">
+                Deflazacort</option>
+              <option value="Palonosetron Hydrochloride">
+                Palonosetron Hydrochloride</option>
+              <option value="Trihexyphenidryl">
+                Trihexyphenidryl</option>
+              <option value="Rupatadine Fumarate">
+                Rupatadine Fumarate</option>
+              <option value="Doxophylline">
+                Doxophylline</option>
+              <option value="Pembrolizumab">
+                Pembrolizumab</option>
+              <option value="Nivolumab">
+                Nivolumab</option>
+              <option value="Empagliflozin">
+                Empagliflozin</option>
+              <option value="Empagliflozin + Linagliptin">
+                Empagliflozin + Linagliptin</option>
+              <option value="Empagliflozin + Metformin Hydrochloride">
+                Empagliflozin + Metformin Hydrochloride</option>
+              <option value="Telmisartan">
+                Telmisartan</option>
+              <option value="Telmisartan + Amlodipine">
+                Telmisartan + Amlodipine</option>
+              <option value="Metformin Hydrochloride">
+                Metformin Hydrochloride</option>
+              <option value="Metformin Hydrochloride Extended Release">
+                Metformin Hydrochloride Extended Release</option>
+              <option value="Olmesartan">
+                Olmesartan</option>
+              <option value="Olmesartan+ Amlodipine">
+                Olmesartan+ Amlodipine</option>
+              <option value="Rosuvastatin">
+                Rosuvastatin</option>
+            </select>
+            <div class="icon-arrow">
+              <svg width="17" height="10" viewBox="0 0 17 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M16.3333 1.25L8.83334 8.75L1.33334 1.25" stroke="black"></path>
+              </svg>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-lg-3">
+          <label for="allProductsDiseaseName" class="form-label">Therapeutic class *</label>
+          <div class="position-relative">
+            <select name="allTherapeuticName" id="allTherapeuticName" class="form-control">
+              <option value="" hidden="" selected="">Select one</option>
+              <option value="37">
+                Anthracyclines (Anticancer)</option>
+              <option value="38">
+                Antimicrotubule agent (Anticancer)</option>
+              <option value="39">
+                TKI (Anticancer)</option>
+              <option value="40">
+                Androgen Biosynthesis Inhibitor (Anticancer)</option>
+              <option value="41">
+                Cytotoxic Chemotherapy (Anticancer)</option>
+              <option value="42">
+                Immunotherapy (PD-1 Inhibitor) (Anticancer)</option>
+              <option value="43">
+                Functional Food</option>
+              <option value="44">
+                Anti-Emetic</option>
+              <option value="46">
+                Demethylation Agent (Anticancer)</option>
+              <option value="47">
+                Monoclonal Antibody (Mab) (Anticancer)</option>
+              <option value="48">
+                Semi-synthetic bile acid analogue</option>
+              <option value="49">
+                Alkylating agent (Anticancer)</option>
+              <option value="50">
+                Enzyme Supplement</option>
+              <option value="51">
+                Nucleoside Analogues (Anticancer)</option>
+              <option value="52">
+                Granulocyte-Colony Stimulating Factor (Anticancer)</option>
+              <option value="53">
+                Amino Acids</option>
+              <option value="54">
+                Erythropoiesis-Stimulating Agents</option>
+              <option value="55">
+                Anthracycline Topoisomerase Inhibitor (Anticancer)</option>
+              <option value="56">
+                Thrombopoietin (TPO) receptor agonist</option>
+              <option value="57">
+                Antiviral</option>
+              <option value="58">
+                Miscellaneous topical agent</option>
+              <option value="59">
+                Progestin (Anticancer)</option>
+              <option value="60">
+                Anti-Metabolite (Anticancer)</option>
+              <option value="61">
+                Proteasome inhibitor (Anticancer)</option>
+              <option value="62">
+                Multi-vitamin &amp; minerals</option>
+              <option value="63">
+                Alginate Containing Antacid</option>
+              <option value="64">
+                Muscle Relaxant</option>
+              <option value="65">
+                Antibiotics</option>
+              <option value="66">
+                Anti-tussive</option>
+              <option value="67">
+                Corticosteroid</option>
+              <option value="68">
+                Anticholinergic</option>
+              <option value="69">
+                Antihistamine</option>
+              <option value="70">
+                Xanthine Bronchodilator</option>
+              <option value="71">
+                Angiotensin Receptor Blocker</option>
+              <option value="72">
+                Angiotensin Receptor Blocker + Calcium Channel Blocker</option>
+              <option value="73">
+                Cardiac Myosin Inhibitor</option>
+              <option value="74">
+                Angiotensin receptor blockers (ARBs) + Diuretics</option>
+              <option value="75">
+                Low Molecular Weight Heparin</option>
+              <option value="76">
+                Fibrinolytics</option>
+              <option value="77">
+                DPP-4 inhibitors</option>
+              <option value="78">
+                DPP-4 inhibitors + Biguanide</option>
+              <option value="79">
+                Sulfonylurea</option>
+              <option value="80">
+                Vitamin</option>
+              <option value="81">
+                Lipid Lowering Agent</option>
+              <option value="82">
+                Beta Blocker</option>
+              <option value="83">
+                Calcium Sensitizer</option>
+              <option value="84">
+                SGLT-2 inhibitor</option>
+              <option value="85">
+                SGLT-2 inhibitor + DPP-4 inhibitor</option>
+              <option value="86">
+                SGLT-2 inhibitor + Biguanides</option>
+              <option value="87">
+                Antihypertensive</option>
+              <option value="88">
+                Biguanides</option>
+              <option value="89">
+                HMG-CoA reductase inhibitors, or statins</option>
+              <option value="90">
+                HMG-CoA reductase inhibitors + Selective cholesterol absorption inhibitor</option>
+
+            </select>
+            <div class="icon-arrow">
+              <svg width="17" height="10" viewBox="0 0 17 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M16.3333 1.25L8.83334 8.75L1.33334 1.25" stroke="black"></path>
+              </svg>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-3">
+          <label for="allProductsKeywordSearch" class="form-label">Keyword Search *</label>
+          <input type="text" name="allProductsKeywordSearch" id="allProductsKeywordSearch" class="form-control"
+            placeholder="Search">
+        </div>
+      </div>
+    </div>
+    <!-- begin product list  -->
+    <div class="beacon-product">
+      <h3>A</h3>
+      <a href="#" class="nav-link d-flex align-items-center product-info">
+        <img class="product-img" src="https://beaconpharma.com.bd/uploads/products/thumbnail/alfacon.jpg" alt="Alfacon">
+        <div class="d-flex flex-grow-1 justify-content-between">
+          <span class="product-name">Alfacon</span>
+          <img src="assets/img/icon/arrow-right.svg" alt="plus">
+        </div>
+      </a>
+    </div>
+    <div class="beacon-product">
+      <h3>B</h3>
+      <a href="#" class="nav-link d-flex align-items-center product-info">
+        <img class="product-img" src="assets/img/product-img/belsar.jpg" alt="Alfacon">
+        <div class="d-flex flex-grow-1 justify-content-between">
+          <span class="product-name">Belsar</span>
+          <img src="assets/img/icon/arrow-right.svg" alt="plus">
+        </div>
+      </a>
+      <a href="#" class="nav-link d-flex align-items-center product-info">
+        <img class="product-img" src="assets/img/product-img/belsar-m.jpg" alt="Alfacon">
+        <div class="d-flex flex-grow-1 justify-content-between">
+          <span class="product-name">Belsar-M</span>
+          <img src="assets/img/icon/arrow-right.svg" alt="plus">
+        </div>
+      </a>
+      <a href="#" class="nav-link d-flex align-items-center product-info">
+        <img class="product-img" src="assets/img/product-img/bevastim.jpg" alt="Alfacon">
+        <div class="d-flex flex-grow-1 justify-content-between">
+          <span class="product-name">Bevastim</span>
+          <img src="assets/img/icon/arrow-right.svg" alt="plus">
+        </div>
+      </a>
+      <a href="#" class="nav-link d-flex align-items-center product-info">
+        <img class="product-img" src="assets/img/product-img/belsar-m.jpg" alt="Alfacon">
+        <div class="d-flex flex-grow-1 justify-content-between">
+          <span class="product-name">Bortez</span>
+          <img src="assets/img/icon/arrow-right.svg" alt="plus">
+        </div>
+      </a>
+    </div>
+    <!-- end product list  -->
+  </div>
+  <!-- ========== begin footer ========  -->
+  <footer class="py-5 footer">
+    <div class="container pb-5">
+      <!-- begin row  -->
+      <div class="row">
+        <!--begin first col  -->
+        <div class="col-12 col-lg-6 d-flex justify-content-center justify-content-lg-start">
+          <div class="">
+            <a class="nav-link" href="#">
+              <img src="assets/img/logo.svg" alt="">
+            </a>
+            <p class="addres my-3">
+              BEACON Business Centre 9/B/2, Toyenbee Circular Road, Motijheel, Dhaka-1223, Bangladesh
+            </p>
+            <div class="d-flex gap-4 link align-items-center">
+              <span>
+                <img src="assets/img/icon/phone-icon.svg" alt="beacon phone icon">
+              </span>
+              <a href="#">+88012294543</a>
+            </div>
+            <div class="d-flex gap-4 link align-items-center">
+              <span>
+                <img src="assets/img/icon/email-icon.svg" alt="beacon email icon">
+              </span>
+              <a href="#">info@gmail.com</a>
+            </div>
+            <div class="footer-icon-container my-3">
+              <a class="nav-link" href="#"><i class="fa-brands fa-facebook-f"></i></a>
+              <a class="nav-link" href="#"><i class="fa-brands fa-twitter"></i></a>
+              <a class="nav-link" href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+              <a class="nav-link" href="#"><i class="fa-brands fa-square-youtube"></i></a>
+            </div>
+          </div>
+        </div>
+        <!-- end first col  -->
+        <!-- begin secound col  -->
+        <div class="col-12 col-lg-6">
+          <div class="row">
+            <div class="col 12 md-6 footer-link">
+              <a href="#">Investors</a>
+              <a href="#">Insights</a>
+              <a href="#">Reacharge & Development</a>
+              <a href="#">Quality Policy</a>
+              <a href="#">Creer</a>
+              <a href="#">FAQ</a>
+            </div>
+            <div class="col 12 md-6 footer-link d-flex flex-column align-items-center">
+              <a href="#">Beacon at Glance</a>
+              <a href="#">Our Leadership</a>
+              <a href="#">Our People</a>
+              <a href="#">Our Responsibility</a>
+              <a href="#">Sister Concerns</a>
+            </div>
+          </div>
+        </div>
+        <!-- end secound col  -->
+      </div>
+      <!-- end row  -->
+    </div>
+    <hr style="color: var(--footer-text-color);">
+    <div class="container footer-bottom pt-3">
+      <div class="row">
+        <div class="col-12 col-md-8">
+          <p class="copyright">
+            Copyright © 2024 Beacon Pharmaceuticals PLC | All Rights Reserved
+          </p>
+        </div>
+        <div class="col-12 col-md-4">
+          <divc class="d-flex justify-content-evenly link">
+            <a href="#">Privacy policy</a>
+            <a href="#">Terms & Conditions</a>
+        </div>
+      </div>
+    </div>
+    </div>
+  </footer>
+  <!-- ========= end footer ============ -->
+  <!-- bootstrap cdn -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
+  <!-- swiper cdn  -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <!-- custom js  -->
+  <script src="assets/js/app.js"></script>
+  <script src="assets/js/slider.js"></script>
+</body>
+
+</html>
