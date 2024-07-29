@@ -1,0 +1,195 @@
+:root {
+  --white-background: #ffffff;
+  --white-text: #ffffff;
+  --bas-color1: #284395;
+  --info-bas-color: #4de1ff;
+  --footer-text-color: rgba(255, 255, 255, 0.7);
+}
+.section-heading {
+  font-size: 40px;
+  font-weight: 700;
+  font-family: "Barlow";
+  color: rgb(10, 32, 96);
+}
+.subsection-heading {
+  font-size: 36px;
+  font-weight: 700;
+  font-family: "Barlow";
+  color: rgb(10, 32, 96);
+}
+/* ======= header ========== */
+header {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 10px 30px;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  z-index: 100;
+}
+.nav-group li, .nav-top-item li {
+  list-style-type: none;
+  
+}
+.nav-group li a,
+.nav-group li .cm-dropdown {
+  font-size: 16px !important;
+  font-family: "Source Sans Pro";
+  font-weight: 500;
+}
+.nav-group li a,.nav-group li .cm-dropdown, .nav-top-item li a {
+  color: var(--white-text);
+  font-weight: 500;
+  font-size: 14px;
+  font-family: "Source Sans Pro";
+}
+.nav-group > li > a:hover,
+.nav-group > li .cm-dropdown:hover,
+.nav-top-item > li > a:hover {
+  color: var(--info-bas-color) !important;
+}
+.nav-group > li > a:focus, 
+.nav-top-item > li > a:focus {
+  color: var(--info-bas-color) !important;
+}
+.nav-group li .cm-dropdown img {
+  filter: invert(100%);
+  width: 14px;
+  height: auto;
+  margin-top: 2px;
+  margin-left: 5px;
+}
+.nav-top-item {
+  padding: 0px 15px;
+  transition: all 0.4s ease-in-out;
+}
+/* begin dropdonw  */
+.cm-dropdown {
+  position: relative;
+  cursor: pointer;
+}
+.cm-dropdown:hover .dropdown-item1 {
+  top: 63px;
+  opacity: 1;
+  visibility: visible;
+}
+.dropdown-item1 {
+  opacity: 0;
+  visibility: hidden;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  min-width: 400px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 18px 50px 0px rgba(8, 96, 168, 0.5);
+  transition: 0.5s ease;
+  padding-bottom: 10px;
+  border-radius: 0 0 20px 20px;
+  left: 0px;
+  top: 80px;
+}
+.dropdown-item1 a {
+  display: block;
+  font-family: inherit;
+  padding: 12px 20px;
+  line-height: 1.625;
+  font-size: 16px !important;
+  color: rgb(10, 32, 96) !important;
+  font-weight: 400;
+  text-decoration: none;
+  transition: background-color 300ms ease, color 300ms ease;
+  
+}
+.dropdown-item1 a:hover {
+  color: rgb(0, 92, 194) !important;
+}
+.arrowhover1:hover img, 
+  .arrowhover2:hover img{
+  transform: rotate(180deg);
+}
+.cm-dropdown img {
+  transition: 0.4s ease;
+}
+/* end  dropdonwn  */
+.menu-button {
+  border: none;
+  background: none;
+
+}
+.menu-button i {
+  font-size: 25px;
+  color: var(--white-text);
+}
+.search {
+  background: none;
+  border: none;
+}
+.search i {
+  font-size: 25px;
+  color: var(--white-text);
+}
+/* ========== header end ========== */
+/* begin footer  */
+.footer {
+  background-color: #0a2060;
+}
+.addres {
+  color: var(--footer-text-color);
+  font-size: 14px;
+  max-width: 280px;
+  font-weight: 400;
+}
+.footer .link a {
+  text-decoration: none;
+  font-size: 14px;
+  font-size: normal;
+  color: var(--white-text);
+  transition: all 0.3s ease-in-out;
+}
+.footer .link a:hover {
+  color: var(--info-bas-color);
+}
+.footer-icon-container {
+  display: flex;
+  gap: 10px;
+}
+.footer-icon-container a {
+  width: 38px;
+  height: 38px;
+  margin: 0px;
+  padding: 0px;
+  border-radius: 50%;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--footer-text-color);
+  transition: all 0.2s ease-in-out;
+}
+.footer-icon-container a:hover {
+  background-color: var(--white-background);
+}
+.footer-link a {
+  display: block;
+  text-decoration: none;
+  font-size: 16px;
+  color: var(--footer-text-color);
+  padding: 7px 0px;
+  font-weight: 400;
+}
+.footer-link a:hover {
+  color: var(--info-bas-color);
+}
+.footer-bottom .link a{
+ text-decoration: none;
+ font-size: 14px;
+ font-weight: 500;
+ color: var(--footer-text-color);
+}
+.copyright {
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--footer-text-color);
+  margin: 0px;
+}
+/* end footer  */
